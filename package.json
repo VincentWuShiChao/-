@@ -1,0 +1,17 @@
+{
+  "name": "mocha_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha mocha/app.js",
+    "cover": "istanbul cover mocha/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
